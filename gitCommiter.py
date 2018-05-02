@@ -8,6 +8,6 @@ for i in range(1,commits):
     f.close()
     call(["git", "add", "."])
     call(["git", "commit", "-m",'"commiter auto"'])
-    call(["git", "push"])
-    call(["luis suarez"])
+    
+    call(["git", "push", "https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"])
     
