@@ -1,6 +1,6 @@
 from subprocess import call
 
-commits = 2
+commits = 3
 filename = "gitter"
 pusher = "git push https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"
 for i in range(1,commits):
