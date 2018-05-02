@@ -9,5 +9,5 @@ for i in range(1,commits):
     call(["git", "add", "."])
     call(["git", "commit", "-m",'"commiter auto"'])
     call(["git", "push"])
-    call(["git","pull", "https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter/", "master"])
+    call(["git","push", "https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter/", "master"])
     
