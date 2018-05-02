@@ -19,5 +19,5 @@ for i in range(1,commits):
     call(["touch", file])
     git()
     
-    
+call(["rm", "*.me"])
 
