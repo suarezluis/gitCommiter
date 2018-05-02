@@ -1,5 +1,5 @@
 from subprocess import call
-
+a = 0
 commits = 3
 filename = "gitter"
 pusher = "git push https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"
@@ -14,6 +14,8 @@ def git():
 
 
 for i in range(1,commits):
-    f= open(filename + "a","w+")
+    a += 1
+    filename = filename + str(a)
+    f= open(filename,"w+")
     f.close()
     git()   
