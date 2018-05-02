@@ -14,9 +14,9 @@ def git():
 
 
 for i in range(1,commits):
-    a += 1
+    
     call(["touch", "delete.me"])
     git()
     call(["rm", "delete.me"])
-
+    git()
 
