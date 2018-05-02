@@ -9,12 +9,18 @@ pusher = "git push https://suarezluis:makemoney2903@github.com/suarezluis/gitCom
 def git():
     call(["git", "add", "."])
     print("Added all files")
+    print("================================================================")
     call(["git", "commit", "-m",'"commiter auto"']) 
+    print("================================================================")
     print("Git commited")
+    print("================================================================")
     print("Pushing...")
+    print("================================================================")
     call(["git", "push", "https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"])
+    print("================================================================")
     print("Pushed!")
     print("Waiting 3 seconds")
+    print("================================================================")
     sleep(3)
 
 
