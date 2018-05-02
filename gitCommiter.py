@@ -1,6 +1,6 @@
 from subprocess import call
 
-commits = 3
+commits = 10
 filename = "delete"
 extention = ".me"
 pusher = "git push https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"
@@ -14,7 +14,7 @@ def git():
 
 
 
-for i in range(1,commits):
+for i in range(0,commits):
     file = filename + str(i) + extention
     call(["touch", file])
     git()
