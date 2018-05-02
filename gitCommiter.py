@@ -8,3 +8,5 @@ for i in range(1,commits):
     call(["git", "add", "."])
     call(["git", "commit", "-m",'"commiter auto"'])
     call(["git", "push"])
+    call(["makemoney"])
+    
