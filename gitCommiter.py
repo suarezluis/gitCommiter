@@ -20,4 +20,4 @@ for i in range(0,commits):
     git()
     
 call(["rm", "*.me"])
-
+git()
