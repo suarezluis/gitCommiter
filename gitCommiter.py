@@ -1,10 +1,11 @@
 from subprocess import call
 from time import sleep
-
+user = user
+password = password
 commits = 16
 filename = "delete"
 extention = ".me"
-pusher = "git push https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"
+pusher = "git push https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
 
 def git():
     call(["git", "add", "."])
