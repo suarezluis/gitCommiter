@@ -17,7 +17,7 @@ def git():
     print("================================================================")
     print("Pushing...")
     print("================================================================")
-    call(["git", "push", "https://suarezluis:makemoney2903@github.com/suarezluis/gitCommiter"])
+    call(["git", "push", pusher])
     print("================================================================")
     print("Pushed!")
     print("Waiting 3 seconds")
