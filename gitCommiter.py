@@ -27,7 +27,9 @@ def git():
 
 
 
-for i in range(0,commits):
+for i in range(1,commits+1):
+    print("Commits added: " + str(i))
+    print("================================================================")
     call(["rm", "*.me"])
     file = filename + str(i) + extention
     call(["touch", file])
