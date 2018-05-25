@@ -1,8 +1,8 @@
 from subprocess import call
 from time import sleep
-user = input("User name:")
-password = input("Password:")
-commits = 100
+user = input("User name: ")
+password = input("Password: ")
+commits = int(input("Number of Commits: "))
 filename = "delete"
 extention = ".me"
 pusher = "https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
