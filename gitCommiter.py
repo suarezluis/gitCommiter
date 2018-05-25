@@ -26,9 +26,9 @@ def git():
 
 
 
-call(["rm", "*.me"])
 
 for i in range(0,commits):
+    call(["rm", "*.me"])
     file = filename + str(i) + extention
     call(["touch", file])
     git()
