@@ -2,7 +2,7 @@ from subprocess import call
 from time import sleep
 user = "suarezluis"
 password = "makemoney2903"
-commits = 16
+commits = 100
 filename = "delete"
 extention = ".me"
 pusher = "https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
