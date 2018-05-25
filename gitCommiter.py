@@ -31,7 +31,7 @@ def git():
 
 
 
-for i in range(1,(commits+1)):
+for i in range(1,(commits)):
     commited = i
     call(["rm", "*.me"])
     file = filename + str(i) + extention
