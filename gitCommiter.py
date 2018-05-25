@@ -24,12 +24,12 @@ def git():
     print("Commited!")
     print("Waiting 1 seconds")
     print("================================================================")
-    sleep(1)
+    sleep(0)
 
 
 
 
-for i in range(1,commits+1):
+for i in range(1,commits):
     commited = i
     call(["rm", "*.me"])
     file = filename + str(i) + extention
