@@ -31,6 +31,7 @@ for i in range(0,commits):
     call(["rm", "*.me"])
     file = filename + str(i) + extention
     call(["touch", file])
+    call(["clear"])
     git()
     
 call(["rm", "*.me"])
