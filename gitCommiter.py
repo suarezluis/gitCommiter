@@ -15,14 +15,14 @@ def git():
     print("================================================================")
     call(["git", "commit", "-m",'"commiter auto"']) 
     print("================================================================")
-    print("Git commited! pushed " + str(commited) + " / " + str(commits))
+    print("Git commited! " + str(commited) + " / " + str(commits))
     print("================================================================")
     print("Pushing...")
     print("================================================================")
-    call(["git", "push", pusher])
+    ##call(["git", "push", pusher])
     print("================================================================")
-    print("Pushed!")
-    print("Waiting 3 seconds")
+    print("Commited!")
+    print("Waiting 1 seconds")
     print("================================================================")
     sleep(1)
 
@@ -39,3 +39,4 @@ for i in range(1,commits+1):
     
 call(["rm", "*.me"])
 git()
+call(["git", "push", pusher])
