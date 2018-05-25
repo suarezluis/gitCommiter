@@ -5,7 +5,7 @@ password = "makemoney2903"
 commits = 16
 filename = "delete"
 extention = ".me"
-pusher = "git push https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
+pusher = "https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
 
 def git():
     call(["git", "add", "."])
