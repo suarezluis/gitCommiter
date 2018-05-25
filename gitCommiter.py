@@ -11,6 +11,8 @@ commited = 0
 def git():
     call(["clear"])
     call(["git", "add", "."])
+    print("Programmed by Luis Suarez May 2018")
+    print("================================================================")
     print("Added all files")
     print("================================================================")
     call(["git", "commit", "-m",'"commiter auto"']) 
