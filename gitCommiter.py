@@ -1,7 +1,7 @@
 from subprocess import call
 from time import sleep
-user = "suarezluis"
-password = "makemoney2903"
+user = prompt("User name:")
+password = prompt("Password:")
 commits = 100
 filename = "delete"
 extention = ".me"
