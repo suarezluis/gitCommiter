@@ -19,7 +19,7 @@ def git():
     print("================================================================")
     print("Pushing...")
     print("================================================================")
-    call(["git", "push", pusher])
+    ##call(["git", "push", pusher])
     print("================================================================")
     print("Pushed!")
     print("Waiting 3 seconds")
@@ -39,3 +39,4 @@ for i in range(1,commits+1):
     
 call(["rm", "*.me"])
 git()
+call(["git", "push", pusher])
