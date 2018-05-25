@@ -6,6 +6,7 @@ commits = int(input("Number of Commits: "))
 filename = "delete"
 extention = ".me"
 pusher = "https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
+commited = 0
 
 def git():
     call(["git", "add", "."])
@@ -19,7 +20,7 @@ def git():
     print("================================================================")
     call(["git", "push", pusher])
     print("================================================================")
-    print("Pushed!")
+    print("Pushed!" + str(commited))
     print("Waiting 3 seconds")
     print("================================================================")
     sleep(0)
@@ -28,8 +29,7 @@ def git():
 
 
 for i in range(1,commits+1):
-    print("Commits added: " + str(i))
-    print("================================================================")
+    commited = i
     call(["rm", "*.me"])
     file = filename + str(i) + extention
     call(["touch", file])
