@@ -22,7 +22,7 @@ def git():
     print("Pushed!")
     print("Waiting 3 seconds")
     print("================================================================")
-    sleep(3)
+    sleep(0)
 
 
 
