@@ -9,6 +9,7 @@ pusher = "https://"+user+":"+password+"@github.com/suarezluis/gitCommiter"
 commited = 0
 
 def git():
+    call(["clear"])
     call(["git", "add", "."])
     print("Added all files")
     print("================================================================")
@@ -23,7 +24,7 @@ def git():
     print("Pushed!")
     print("Waiting 3 seconds")
     print("================================================================")
-    sleep(0)
+    sleep(1)
 
 
 
@@ -33,7 +34,7 @@ for i in range(1,commits+1):
     call(["rm", "*.me"])
     file = filename + str(i) + extention
     call(["touch", file])
-    call(["clear"])
+    
     git()
     
 call(["rm", "*.me"])
